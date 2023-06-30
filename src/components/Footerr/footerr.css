@@ -1,0 +1,113 @@
+.footer {
+  position: relative;
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100%;
+  min-height: 400px !important;
+  /* margin-top: 50px; */
+  background-color: #343434;
+  z-index: 1;
+  bottom: 0;
+  background-attachment: fixed;
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  width: 100%;
+  min-height: 400px !important;
+  /* background-color: rgb(67, 65, 65); */
+  /* overflow: hidden; */
+  color: #e6e4e480;
+  z-index: 3;
+}
+.footer-text {
+  padding: 100px 20px 20px 20px;
+  color: lightgray;
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+}
+.footer-left-heading {
+  display: flex;
+  flex-direction: column;
+}
+.footer-left-heading h1 {
+  position: relative;
+}
+.footer-left-heading h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 200px;
+  background-color: lightgray;
+}
+
+.footer-left-heading ul {
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-left-heading ul li {
+  font-size: 13px;
+}
+.footer-left-heading ul .dot {
+  position: relative;
+}
+.footer-left-heading ul .dot::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: lightgray;
+  top: 8px;
+  left: -18px;
+}
+.footer-text p {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer-text span {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.footercopyright {
+  margin-top: 50px;
+}
+.footercopyright .right {
+  border-top: 1px solid lightgray;
+}
+.footercopyright .right .copyright {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footercopyright .right .copyright span,
+.footercopyright .right .copyright a {
+  font-size: 14px;
+}
+.footercopyright .right .copyright a {
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 99;
+  color: #111;
+  transition: all .3s;
+}
+
+.footercopyright .right .copyright a:hover{
+margin-top: -3px;
+}

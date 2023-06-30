@@ -1,0 +1,20 @@
+.formData {
+  min-height: 100vh;
+  height: 100%;
+  border: 1px solid #111;
+  margin-bottom: 20px;
+}
+
+.formTitle{
+    display: flex;
+    justify-content: center;
+    background-color: #F1C27B;
+    padding: 10px 0;
+}
+
+@media (max-width:768px){
+  .formData {
+   margin-top: 100px;
+   border: none;
+  }
+}

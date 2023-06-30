@@ -1,0 +1,123 @@
+.about{
+  font-family: "Nunito", sans-serif;
+}
+.about-banner {
+  background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1684842090/fprintresort/aboutbanner_sgmnfk.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about-banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 0;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+.about-banner-text h1 {
+  letter-spacing: 1px;
+}
+.about-banner-text p {
+  letter-spacing: 0.5px;
+  font-size: 17px;
+}
+
+/* about Us */
+.aboutUs {
+  margin-top: 50px;
+  padding: 0px 40px;
+}
+.aboutUs .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutUs .left h2 {
+  font-weight: 800;
+  color: #111;
+}
+.aboutUs .left p {
+  word-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 25px;
+  color: gray;
+}
+.aboutUs .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs .right img {
+  width: 300px;
+  opacity: 0.4;
+}
+.projectCounting{
+  overflow: hidden;
+}
+.projectCounting .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projectCounting .right span {
+  word-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 25px;
+  color: gray;
+}
+.projectCounting .right h2 {
+  font-size: 25px;
+}
+.aboutquery {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1684842090/fprintresort/aboutquery_q9mpht.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.aboutquerytext{
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutquerytext span{
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.aboutquerytext span a{
+  color: gray;
+}
+.aboutquerytext span:hover{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+
+@media screen and (max-width:568px){
+  .aboutUs {
+    padding: 0px 20px;
+  }
+  .aboutquery {
+   
+    background-position: center left;
+  }
+
+  .aboutUs .right {
+    display: none;
+  }
+  .projectCounting{
+    padding: 0px 20px;
+  }
+}

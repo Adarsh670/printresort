@@ -1,0 +1,120 @@
+.contact {
+  background-color: #111;
+}
+.contact .row {
+  padding: 100px 50px;
+}
+.line {
+  border-right: 1px solid gray;
+}
+.contact .row .left p {
+  color: gray;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.contact .row .left h1 {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.inner-contact {
+  padding: 10px 100px 0 0;
+  margin-top: 30px;
+  color: gray;
+  /* border: 1px solid #fff; */
+}
+.inner-contact .feelfree {
+  font-size: 17px;
+  word-spacing: 0.5px;
+}
+.inner-contact form {
+  margin-top: 40px;
+}
+.inner-contact form input,
+.inner-contact form textarea {
+  width: 100%;
+  outline: none;
+}
+.inner-contact form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0 10px 5px;
+}
+.inner-contact form textarea {
+  background-color: transparent;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.inner-contact button {
+  margin-top: 30px;
+  color: #fff;
+  width: 100%;
+  background-color: gray;
+  border: none;
+  padding: 8px 0;
+}
+
+.contact .right {
+  padding: 50px 100px;
+}
+.contact .right span {
+  color: gray;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact .right p {
+  margin: 0;
+  color: lightgray;
+}
+
+.social {
+  margin-top: 50px;
+  border-top: 1px solid #fff;
+  padding: 10px 0;
+}
+.social ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.social ul li {
+  color: gray;
+}
+.social ul li:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .contact .row {
+    padding: 150px 10px 0 10px;
+  }
+  .line {
+    border-right: 0px solid gray;
+  }
+  .inner-contact {
+    padding: 10px;
+  }
+  .inner-contact form {
+    margin-top: 0px;
+  }
+  .contact .right {
+    padding: 50px 30px;
+  }
+  .contact .row .left h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+}

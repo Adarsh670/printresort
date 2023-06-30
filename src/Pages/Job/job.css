@@ -1,0 +1,59 @@
+.job-banner{
+    background-color: #C4D7B2;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.job-form{
+    min-height: 100vh;
+    height: 100%;
+    padding-top:50px ;
+}
+.job-form .container{
+    border: 1px solid lightgray;
+}
+.jobNo,.clientName,.clientMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0;
+    gap: 5px;
+}
+input{
+    width: 100%;
+    padding:  10px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.box{
+    border: 1px solid lightgray;
+    padding: 15px 20px !important;
+}
+.box textarea{
+    width: 100%;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.job-btn {
+    margin-top: 20px;
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.job-btn button{
+    margin: 20px 0;
+    padding: 10px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFB84C;
+}
+.jobformstatus{
+    display: none;
+}

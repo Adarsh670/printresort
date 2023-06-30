@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap");
+/* font-family: 'Radley', serif; */
+
+.portfoliobanner {
+  background-color: #f4f1e8;
+  padding: 50px;
+}
+.portfoliobannerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfoliobannerCenter {
+  background-color: #bd8f53;
+  height: 2px;
+}
+.portfoliobannerRight p {
+  margin: 0;
+  padding-left: 15px;
+}
+.portfoliobannerTitle {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Radley", serif;
+  line-height: 10px;
+}
+.portfoliobannerTitle p {
+  margin: 0;
+  color: #9b4819;
+  font-style: italic;
+  font-size: 25px;
+}
+.portfoliobannerTitle h2 {
+  color: #111;
+  font-size: 55px;
+  margin: 0;
+}
+.portfoliobannerTitle h1 {
+  font-style: italic;
+  font-size: 60px;
+  margin-top: -20px;
+}
+/* end of banner */
+
+.portfolioSection {
+  margin-top: 50px;
+  font-family: "Radley", serif;
+  font-style: italic;
+}
+.portfolio-report-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.portfolio-report-heading::after{
+  content: "";
+  position: absolute;
+  width: 60px;
+  bottom: 0;
+  height:1px;
+  background-color: #9b4819;
+}
+.vakrangeerow{
+  position: relative;
+  border: 1px solid lightgray;
+}
+.role{
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.role p{
+  font-weight: 600;
+  margin: 0;
+}
+/* .vakrangeerow::before{
+  content: "Vakrangee";
+  position: absolute;
+  font-size: 50px;
+  color: lightgray;
+  width: 10px;
+  height: 100px;
+  top:-10%;
+  left: -10px;
+  transform: rotate(-90deg);
+} */
+/* .vakrangeerow::after{
+  content: "Role:Content_Strategy_and_Design";
+  position: absolute;
+  font-size: 30px;
+  color: lightgray;
+  width: 10px;
+  height: 100%;
+  top:10%;
+  right: 0px;
+  transform: rotate(-90deg);
+} */
+
+@media screen and (max-width: 567px) {
+  .portfoliobannerdiv {
+    display: none;
+  }
+  .vakrangee{
+    height: 350px;
+    width: 100%;
+  }
+}
