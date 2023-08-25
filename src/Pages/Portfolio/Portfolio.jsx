@@ -12,7 +12,7 @@ const Portfolio = () => {
     <>
       <Helmet>
     <title>{title}</title>
-  </Helmet>;
+  </Helmet>
       <div className="fluid-container">
         <div className="fluid-container portfoliobanner">
           <div className="container">
